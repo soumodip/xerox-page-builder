@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   target: "static",
   nitro: {
     output: {
-      publicDir: path.join(__dirname, 'dist')
+      publicDir: path.join(__dirname, 'docs')
     }
   },
   title: "Xerox Page Builder for Physicswallah, Unacademy etc. notes",
