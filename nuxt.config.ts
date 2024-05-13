@@ -15,6 +15,9 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/xerox-page-builder/",
   },
+  router: {
+    base: "/xerox-page-builder/",
+  },
   head: {
     htmlAttrs: {
       lang: "en",
