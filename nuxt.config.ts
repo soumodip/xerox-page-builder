@@ -12,8 +12,8 @@ export default defineNuxtConfig({
     }
   },
   title: "Xerox Page Builder for Physicswallah, Unacademy etc. notes",
-  router: {
-    base: "/xerox-page-builder/",
+  app: {
+    baseURL: "/xerox-page-builder/",
   },
   head: {
     htmlAttrs: {
